@@ -1,8 +1,4 @@
 # FOAF Vocabulary <http://xmlns.com/foaf/spec/>
-# ```js
-# JSON.stringify(Array.from(document.querySelectorAll('.propertyterm'))
-#     .map(term => term.id.replace('term_', '')), null, 4)
-# ```
 ---
 - homepage
 - isPrimaryTopicOf
@@ -66,3 +62,10 @@
 - holdsAccount
 - surname
 - theme
+...
+# Aggregated via:
+# ```js
+# JSON.stringify(Array.from(document.querySelectorAll('.propertyterm'))
+#     .map(term => term.id.replace('term_', '')), null, 4)
+# ```
+
