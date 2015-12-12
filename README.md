@@ -4,5 +4,4 @@ Semantic Identity Research
 
 [![License][img-license]](LICENSE.md)
 
-[img-license]: https://img.shields.io/github/license/jbenner-radham/semantic-identity-research
-.svg
+[img-license]: https://img.shields.io/github/license/jbenner-radham/semantic-identity-research.svg
