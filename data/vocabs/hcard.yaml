@@ -1,0 +1,48 @@
+# hCard Vocabulary <http://microformats.org/profile/hcard>
+---
+vcard:             A container for the rest of the class names defined in this XMDP profile. See section 1. of RFC 2426.
+fn:                See section 3.1.1 of RFC 2426.
+n:                 See section 3.1.2 of RFC 2426. May be inferred per Implied "N" Optimization.
+family-name:       See "Family Name" in section 3.1.2 of RFC 2426.
+given-name:        See "Given Name" in section 3.1.2 of RFC 2426.
+additional-name:   See "Additional Names" in section 3.1.2 of RFC 2426.
+honorific-prefix:  See "Honorific Prefixes" in section 3.1.2 of RFC 2426.
+honorific-suffix:  See "Honorific Suffixes" in section 3.1.2 of RFC 2426.
+nickname:          See section 3.1.3 of RFC 2426.
+photo:             See section 3.1.4 of RFC 2426. Typically used with an <img> tag. Use the 'src' attribute for URI values. Use the 'data:' URI scheme for binary values.
+bday:              See section 3.1.5 of RFC 2426. Typically used with an <abbr> tag with the 'title' attribute for the date value, and a human readable date inside the element.
+adr:               See section 3.2.1 of RFC 2426.
+post-office-box:   See "post office box" in section 3.2.1 of RFC 2426.
+extended-address:  See "extended address" in section 3.2.1 of RFC 2426.
+street-address:    See "street address" in section 3.2.1 of RFC 2426.
+locality:          See "locality" in section 3.2.1 of RFC 2426.
+region:            See "region" in section 3.2.1 of RFC 2426.
+postal-code:       See "postal code" in section 3.2.1 of RFC 2426.
+country-name:      See "country name" in section 3.2.1 of RFC 2426.
+type:              See "type" in the various sections of RFC 2426.
+label:             See section 3.2.2 of RFC 2426.
+tel:               See section 3.3.1 of RFC 2426.
+email:             See section 3.3.2 of RFC 2426.
+mailer:            See section 3.3.3 of RFC 2426.
+tz:                See section 3.4.1 of RFC 2426. Typically used with an <abbr> tag with the 'title' attribute for the tz value, and a human readable time zone inside the element.
+geo:               See section 3.4.2 of RFC 2426.
+latitude:          See "latitude" in section 3.4.2 of RFC 2426.
+longitude:         See "longitude" in section 3.4.2 of RFC 2426.
+title:             See section 3.5.1 of RFC 2426.
+role:              See section 3.5.2 of RFC 2426.
+logo:              See section 3.5.3 of RFC 2426. Typically used with an <img> tag. Use the 'src' attribute for URI values. Use the 'data:' URI scheme for binary values.
+agent:             See section 3.5.4 of RFC 2426. If the value is a vCard, then use a nest hCard. For simplicity in that case, the same element that has the class name of "agent" should use the class name of "vcard".
+org:               See section 3.5.5 of RFC 2426.
+organization-name: See "Organization Name" in section 3.5.5 of RFC 2426. May be inferred per Implied "organization-name" Optimization.
+organization-unit: See "Organization Unit" in section 3.5.5 of RFC 2426.
+category:          See section 3.6.1 of RFC 2426.
+note:              See section 3.6.2 of RFC 2426.
+rev:               See section 3.6.4 of RFC 2426. Typically used with an <abbr> tag with the 'title' attribute for the date value, and a human readable date inside the element.
+sort-string:       See section 3.6.5 of RFC 2426.
+sound:             See section 3.6.6 of RFC 2426. Typically used with either an <a> or <object> tag. Use the 'data:' URI scheme for binary values.
+uid:               See section 3.6.7 of RFC 2426.
+url:               See section 3.6.8 of RFC 2426. Typically used with an <a> tag.
+class:             See section 3.7.1 of RFC 2426.
+key:               See section 3.7.2 of RFC 2426. Typically used with an <abbr> tag with the 'title' attribute for the key value, and a human readable key equivalent inside the element.
+value:             This class name is used to distinguish the actual value of a property from any other cruft that may be in the containing element representing the property. See the value-class-pattern for details.
+value-title:       This class name is used to distinguish the actual value of a property, specifically in the 'title' attribute of the element, from the element contents and the element representing the containing property. See the value-class-pattern value-title description for details.

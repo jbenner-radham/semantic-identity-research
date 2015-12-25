@@ -1,0 +1,4 @@
+# inetOrgPerson Vocabulary <http://tools.ietf.org/html/rfc2798>
+---
+jpegPhoto: Used to store one or more images of a person using the JPEG File Interchange Format (JFIF).
+photo:     'Note: Photo attribute values are encoded in G3 fax format with an ASN.1 wrapper. Please refer to RFC 1274 section 9.3.7 for detailed syntax information for this attribute.'
