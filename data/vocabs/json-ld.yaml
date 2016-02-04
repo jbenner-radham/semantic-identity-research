@@ -1,0 +1,33 @@
+# JSON-LD Person (json-ld.org/contexts/person)
+---
+- Person
+- name
+- nickname
+- affiliation
+- depiction
+- image
+- born
+- child
+- colleague
+- knows
+- died
+- email
+- familyName
+- givenName
+- gender
+- homepage
+- honorificPrefix
+- honorificSuffix
+- jobTitle
+- nationality
+- parent
+- sibling
+- spouse
+- telephone
+- Address
+- address
+- street
+- locality
+- region
+- country
+- postalCode
