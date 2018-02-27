@@ -12,7 +12,7 @@ Semantic Identity Comparison
 
 [FOAF]: http://xmlns.com/foaf/spec/
 [INETORGPERSON]: http://tools.ietf.org/html/rfc2798
-[JSON-LD PERSON]: json-ld.org/contexts/person
+[JSON-LD PERSON]: https://json-ld.org/contexts/person
 [NEPOMUK CONTACT]: http://www.semanticdesktop.org/ontologies/2007/03/22/nco/
 [PORTABLE CONTACTS]: http://portablecontacts.net/draft-spec.html
 [SCHEMA PERSON]: https://schema.org/Person
