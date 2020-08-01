@@ -1,67 +1,67 @@
 # FOAF Vocabulary <http://xmlns.com/foaf/spec/>
 ---
-- homepage
-- isPrimaryTopicOf
-- knows
-- made
-- maker
-- mbox
-- member
-- page
-- primaryTopic
-- weblog
 - account
 - accountName
 - accountServiceHomepage
+- age
 - aimChatID
 - based_near
+- birthday
 - currentProject
 - depiction
 - depicts
-- familyName
+- dnaChecksum # A checksum for the DNA of some thing. Joke. (archaic)
+- familyName # The first name of a person.
+- family_name # The family name of some person. (archaic)
 - firstName
-- focus
-- gender
-- givenName
+- focus # The underlying or 'focal' entity associated with some SKOS-described concept.
+- fundedBy # An organization funding a project or person. (archaic)
+- geekcode # A textual geekcode for this person, see http://www.geekcode.com/geek.html (archaic)
+- gender # The gender of this Agent (typically but not necessarily 'male' or 'female').
+- givenName # The given name of some person.
+- givenname # The given name of some person. (archaic)
+- holdsAccount
+- homepage
 - icqChatID
 - img
 - interest
+- isPrimaryTopicOf
 - jabberID
+- knows
 - lastName
 - logo
+- made
+- maker
+- mbox
 - mbox_sha1sum
+- member
+- membershipClass
 - msnChatID
 - myersBriggs
-- name
+- name # A name for some thing.
 - nick
 - openid
+- page
 - pastProject
 - phone
 - plan
+- primaryTopic
 - publications
 - schoolHomepage
+- sha1
 - skypeID
+- status
+- surname
+- theme
 - thumbnail
 - tipjar
 - title # Title (Mr, Mrs, Ms, Dr. etc)
 - topic
 - topic_interest
+- weblog
 - workInfoHomepage
 - workplaceHomepage
 - yahooChatID
-- age
-- birthday
-- membershipClass
-- sha1
-- status
-- dnaChecksum
-- family_name
-- fundedBy
-- geekcode
-- givenname
-- holdsAccount
-- surname
-- theme
 ...
 # Aggregated via:
 # ```js
